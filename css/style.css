@@ -10,11 +10,7 @@ body {
     background-color: #f8f8f8;
 }
 
-<<<<<<< Updated upstream
 
-=======
-/* ================= NAVBAR ================= */
->>>>>>> Stashed changes
 
 .navbar {
     height: 70px;
@@ -29,22 +25,15 @@ body {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-<<<<<<< Updated upstream
 
-=======
-/* ================= LOGO ================= */
->>>>>>> Stashed changes
 
 .logo {
-    font-size: 24px;
-    font-weight: bold;
+    font-family: "Zen Antique", serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
 
-<<<<<<< Updated upstream
-
-=======
-/* ================= NAVIGATION ================= */
->>>>>>> Stashed changes
 
 .nav-links {
     display: flex;
@@ -57,7 +46,8 @@ body {
     text-decoration: none;
     color: #333;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
+    
 
     transition: color 0.3s ease;
 }
@@ -66,11 +56,6 @@ body {
     color: #ff5722;
 }
 
-<<<<<<< Updated upstream
-
-=======
-/* ================= RIGHT SIDE ================= */
->>>>>>> Stashed changes
 
 .nav-right {
     display: flex;
@@ -78,11 +63,7 @@ body {
     gap: 25px;
 }
 
-<<<<<<< Updated upstream
 
-=======
-/* ================= CART ================= */
->>>>>>> Stashed changes
 
 .cart {
     position: relative;
@@ -93,10 +74,11 @@ body {
     font-size: 16px;
 
     transition: transform 0.5s ease;
+    right: 25px;
 }
 
 .cart:hover {
-    transform: rotate(360deg);
+    transform: scale(1.2);
 }
 
 /* Cart Count */
@@ -122,11 +104,7 @@ body {
     font-size: 12px;
 }
 
-<<<<<<< Updated upstream
 
-=======
-/* ================= ORDER BUTTON ================= */
->>>>>>> Stashed changes
 
 .order-btn {
     text-decoration: none;
@@ -147,11 +125,6 @@ body {
     background-color: #e64a19;
 }
 
-<<<<<<< Updated upstream
-
-=======
-/* ================= HAMBURGER ================= */
->>>>>>> Stashed changes
 
 .bar {
     display: none;
@@ -170,11 +143,9 @@ body {
 }
 
 
-<<<<<<< Updated upstream
 
-=======
-/* ================= TABLET ================= */
->>>>>>> Stashed changes
+
+
 
 @media (max-width: 900px) {
 
@@ -196,11 +167,7 @@ body {
 }
 
 
-<<<<<<< Updated upstream
 
-=======
-/* ================= MOBILE ================= */
->>>>>>> Stashed changes
 
 @media (max-width: 650px) {
 
@@ -235,10 +202,7 @@ body {
 }
 
 
-<<<<<<< Updated upstream
-=======
-/* ================= SMALL MOBILE ================= */
->>>>>>> Stashed changes
+
 
 @media (max-width: 400px) {
 
